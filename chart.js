@@ -1,5 +1,5 @@
 // GLOBALS
-var button_click = new audio("button_click.mp3");
+var button_click = new Audio("button_click.mp3");
 var w = 1000,h = 900;
 var padding = 2;
 var nodes = [];
