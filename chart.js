@@ -90,7 +90,7 @@ function transition(name) {
 	}
 	
 	
-if (name === "group-by-the-amount-of-the-donation"){
+if (name === "group-by-the-amount-of-the-donation")
 		button_click.currentTime=0;
 		button_click.play(); 
 		$("#initial-content").fadeOut(250);
@@ -100,7 +100,7 @@ if (name === "group-by-the-amount-of-the-donation"){
 		$("#view-source-type").fadeOut(250);
 		$("#view-the-amount-of-the-donation").fadeIn(1000);
 		return donationType();
-	}
+	
 }
 function start() {
 
