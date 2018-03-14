@@ -88,7 +88,7 @@ function transition(name) {
 		$("#view-the-amount-of-the-donation").fadeOut(250);
 		return fundsType();
 	}
-	if (name === "group-by-the-amount-of-the-donation")
+	if (name === "group-by-the-amount-of-the-donation"){
 		button_click.currentTime=0;
 		button_click.play(); 
 		$("#initial-content").fadeOut(250);
@@ -98,6 +98,7 @@ function transition(name) {
 		$("#view-source-type").fadeOut(250);
 		$("#view-the-amount-of-the-donation").fadeIn(1000);
 		return donationType();
+	}
 	
 }
 function start() {
