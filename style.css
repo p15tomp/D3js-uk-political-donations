@@ -23,6 +23,7 @@ li {
 /* Positioning */
 #initial-content, #a, #b, #c, #d, #e, #f, #first, #second, #third, #fourth, #last, #view-party-type, #view-donor-type, #view-source-type, #view-donation-amount, #partyInfo, #conservative, #labour, #libdem, #individual, #company, #union, #society, #other, #public-or-private-money, #public-or-private-money-split, #private-money, #public-money { 
     position: absolute; 
+}
 
 /* Initial appearance on load */
 #view-party-type, #view-donor-type, #view-source-type, #view-donation-amount {
@@ -74,6 +75,7 @@ li {
     top: 550px;
 }
 
+
 /*	Donor type layout */
 #view-donor-type {
     height: 100%;
@@ -101,32 +103,7 @@ li {
     right: 0
 }
 
-#view-the-amount-of-the-donation {
-    height: 100%;
-    left: 450px;
-    width: 370px;
-}
-#first {
-    top: 50px;
-}
-#second{
-    top: 150px;
-    left: 10px;
-}
-#third {
-    top: 335px;
-    left: -80px;
-}
-#fourth {
-    top: 480px;
-    right: -80px;
-}
-#last {
-    top: 650px;
-    left: -70px;
-}
-
-    /*Donor Amount layout*/
+/*Donor Amount layout*/
 #view-donation-amount {
     height: 100%;
     left: 450px;
@@ -151,6 +128,7 @@ li {
     top: 650px;
     left: -70px;
 }
+
 /* Value scale */
 
 #value-scale {
@@ -201,13 +179,13 @@ circle.active {
     margin: 0.2em;
 }
 .lab {
-    fill: #660033;
+    fill: #ffcc66;
 }
 .lib {
-    fill: #c2c2a3;
+    fill: #00cc44;
 }
 .con {
-    fill: #ff66ff;
+    fill: #336699;
 }
 .snp {
     fill: #C9C945;
@@ -258,7 +236,7 @@ https://github.com/yui/pure/blob/master/LICENSE.md
     /*IE 6/7/8*/
     border: none rgba(0, 0, 0, 0);
     /*IE9 + everything else*/
-    background-color: #E6E6E6;
+    background-color: #FFDB58;
     text-decoration: none;
     border-radius: 2px;
     -webkit-font-smoothing: antialiased;
