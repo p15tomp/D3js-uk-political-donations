@@ -88,15 +88,15 @@ function transition(name) {
 		$("#view-the-amount-of-the-donation").fadeOut(250);
 		return fundsType();
 	}
-	if (name === "group-by-the-amount-of-the-donation"){
-		button_click.currentTime=0;
-		button_click.play(); 
+	if (name === "group-by-donation-amount"){
+		sound.currentTime=0;
+		sound.play();
 		$("#initial-content").fadeOut(250);
 		$("#value-scale").fadeOut(250);
 		$("#view-donor-type").fadeOut(250);
 		$("#view-party-type").fadeOut(250);
-		$("#view-source-type").fadeOut(250);
-		$("#view-the-amount-of-the-donation").fadeIn(1000);
+		$("#view-source-type").fadeOut(1000);
+		$("#view-donation-amount").fadeIn(250);
 		return donationType();
 	}
 	
