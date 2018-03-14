@@ -175,7 +175,7 @@ function donationType() {
 		.charge(function(d) { return -Math.pow(d.radius, 2.0) / 3; })
 		.on("tick", donations)
 		.start();
-
+}
 
 function parties(e) {
 	node.each(moveToParties(e.alpha));
@@ -199,7 +199,7 @@ function types(e) {
 			.attr("cy", function(d) {return d.y; });
 }
 	
-	function donations(e) {
+function donations(e) {
 	node.each(moveToDonations(e.alpha));
 
 
@@ -286,7 +286,7 @@ function moveToFunds(alpha) {
 	};
 }
 	
-	function moveToDonations(alpha) {
+function moveToDonations(alpha) {
 	return function(d) {
 			var centreX;
 			var centreY;
